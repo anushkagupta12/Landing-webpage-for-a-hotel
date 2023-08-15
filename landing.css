@@ -1,0 +1,172 @@
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("img/assets/20.jpg");
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+  justify-content: left;
+  background-color: rgb(70, 27, 62)
+}
+
+nav a {
+  color: #e6e4ee;
+  text-decoration: none;
+  text-shadow: #0a0248;
+  padding: 0.5rem 1rem;
+  font-weight: border;
+}
+
+nav a:hover {
+  background-color: #5e6071;
+
+}
+
+.hero-image {
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+}
+
+.hero-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #fff;
+  text-align: center;
+
+}
+
+
+.box {
+  width: 30px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin: 3px auto;
+  justify-content: left;
+  background-color: #fff;
+  padding: 5px;
+}
+
+.container {
+  padding: 2rem;
+}
+
+.section-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: rgb(75, 48, 4);
+}
+
+h3 {
+  font-family: cursive;
+  ;
+}
+
+p {
+
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section-content {
+  line-height: 1.8;
+}
+
+img {
+  padding: 5px;
+  margin: 3px;
+
+
+}
+
+footer {
+  background-color: #0a0248;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+
+.contain {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+
+}
+
+.room {
+
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  height: 40px;
+
+}
+
+.book-now-btn {
+  display: inline-block;
+  padding: 10px 30px;
+  justify-content: center;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: #fff;
+  background-color: #007bff;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+
+}
+
+.book-now-btn:hover {
+  background-color: #0056b3;
+}
+
+.book-now-btn:active {
+  background-color: #003974;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="email"],
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 8px;
+  margin: 10px;
+  border: 1px solid black;
+  border-radius: 7px;
+
+}
+
+input[type="submit"] {
+  background-color: #10d0ee;
+  margin: 2px;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  width: 30%;
+}
+
+input[type="submit"]:hover {
+  background-color: #141963;
+}
