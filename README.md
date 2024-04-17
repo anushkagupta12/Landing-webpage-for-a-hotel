@@ -1,1 +1,2 @@
-# OIBSIP-LEVEL1-TASK1
+# Landing webpage for a hotel
+
